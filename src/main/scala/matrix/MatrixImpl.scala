@@ -1,0 +1,3 @@
+package matrix
+
+trait MatrixImpl
