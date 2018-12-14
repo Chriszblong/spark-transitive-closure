@@ -1,0 +1,7 @@
+The project does the following : <br/>
+  *load trajectories from HDFS; <br/>
+  *compute the similarities and construct the fuzzy subjective similarity relation; <br/>
+  *compute the transitive closure to obtain a fuzzy similarity relation depending on several t-norms and
+  two algortihms (semi-naive and smart); <br/>
+  *construct the similarity graph and get the connected elements to form the clusters; <br/>
+  *persist the clusters into MongoDB via the reactive mongodb driver in an async way.
